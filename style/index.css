@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+body{
+    animation: bodytranform .5s ease-in;
+    position:relative;
+    transition: all 0.5s;
+}
+@keyframes bodytranform{
+    from{top: -600px;}
+    to{top: 0;}
+}
+.row{
+   justify-content: center;
+   align-items: center;
+}.logo{
+    cursor: pointer;}.row .col h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}.row .col sub{
+    color: #FF5900;
+ }.row .web-explan p{
+    margin-top: 2rem;
+    font-size: medium;
+    text-align: left;
+    color: #e7824c;
+ }.row .acont{
+     width: 150px;
+ }
+ #login{
+     position: absolute;
+     right: 6rem;
+     top: 5px;}#login:active{
+     background-color: green;
+     border: 1px solid green;
+ }
+ .row .page-cover{
+    height: 500px;
+    position: relative;
+    background-image: url(../cover/cover.jpg);
+    background-position: center;
+    background-size: contain;
+ }
+ .page-cover nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #ffffff;
+ }
+
+ .page-cover ul{
+     display: flex;
+    justify-content: left;
+    background-color: #FF5900;
+    padding: 10px 0;
+ }
+ .page-cover ul li{
+     padding: 5px 15px;
+     margin-left: 20px;
+     background-color: #783009;
+     list-style: none;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 5px;
+     transition: all 0.3s;
+     cursor: pointer;
+ }
+
+.page-cover ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+.page-cover li:hover{
+    background-color: #FF5900;
+    border-radius: 0;
+    transform: scale(1.2);
+}
+.page-cover li:hover a{
+    color: white;
+}
+.page-cover li a:active{
+   color: rgb(0, 255, 0);
+}
+
+
+/* body style */
+
+.co-workspace-card{
+    border: 2px solid #FF5900;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 30px 10px 30px;
+    height: 350px;
+    margin-bottom: 2rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.co-workspace{
+    margin-top: 5rem;
+    text-align: center;
+    color: #000000 ;
+    font-weight: 600;
+    padding-bottom: 5rem;
+}
+.co-workspace p{
+    width: 50%;
+    margin:  auto;
+    color: rgb(104, 102, 102);
+}
+.space-detile{
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: -200px;
+    left: 3rem;
+    transition: all .5s;
+}.btn-success{
+    border-radius: 10px 6px 10px 6px;margin-top: 1rem;}.open{
+    font-size: 1.5rem; color: rgb(53, 250, 53); padding: 5px 10px; background-color: green; border-radius: 40px 5px 40px 5px;}
+#code{background-color: #FF5900; margin-left: 10px; border: 0; transition: all .2s;}#code:active{background-color: white;}
+.co-workspace-row{
+    column-gap: 25px;
+}
+.co-workspace-card:hover .space-detile{
+bottom: 0;
+}
+.col .carousel-item img{
+    border-radius: 40px 20px 40px 20px;
+    animation: opacty .2s ease forwards;
+}
+.our-parner-detale{
+    margin-top: 2rem;
+}
+.our-parner{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    column-gap: 3rem;
+}
+.footer-start{
+    background-color: #b03e00;
+    margin-bottom: 2rem;
+    padding: 5px 0;
+}
+.conatact{
+    position: relative;
+    overflow: hidden;
+}
+.row table .data-ending{
+    position: relative;
+}
+.our-parner h3{font-weight: 600; padding-bottom: 1rem; color: #626262 ;} 
+.carousel-control-next span{background-color: #FF5900;border-radius: 50%;}.carousel-control-next span:active{background-color: #626262;}
+.carousel-control-next span{background-color: #FF5900;border-radius: 50%;}.carousel-control-prev span:active{background-color: #626262;}
+.carousel-control-prev span{background-color: #FF5900;border-radius: 50%;}
+.our-parner-detale li{padding-bottom:1rem;font-size: 1.3rem;list-style: circle;}
+.col form{background-color: #783009; border-radius:20px 20px 40px 40px; margin-bottom: 2rem;}
+.col form table{border-radius: 50px 50px 0 0;border: 0;background-color: #FF5900; margin-bottom: 3rem; width: 100%;}
+.col form table input{border: 0; padding: 5px 15px; background-color: #b03e00; }.col  table .contact{font-size: 1.3rem; font-weight: 300; color: #626262;}
+.col table button{padding: 5px 10px; background-color: #b03e00; color: white; border-radius: 5px; border: 0; font-weight: 400;
+     margin-left: 10px;}.col table button:hover{
+        background-color: rgb(0, 113, 39);
+         }.col table button:active{
+                background-color: #FF5900; border: 2px solid white; transition: all .2s;}
+.darict-contact{
+    background-color: rgb(0, 113, 39);
+    padding: 5px 0;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 3px black;}.col table i{
+                                        font-size: 1.3rem;
+                                        color: green;
+                                        position: absolute;
+                                        right: 5px;
+                                        top: 5px;
+                                        }.errose {color: red; font-size: 1.3rem;
+                                             position: absolute; top: 2px; z-index: 1; display: flex;
+                                             right: 0;
+                                            }
+
+    /* alert message */
+
+.seccess-alert{
+    position: absolute;
+    background-color: green;
+    transition: ease-in-out .5s;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -200%;
+    right: 0;
+}
+.goback{
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: black;
+}.col .fa-brands {
+    font-size: 2.3rem; color: red; margin-bottom: 1.5rem; 
+box-shadow: 2px 2px 3px black;}.col .fa-facebook{
+        margin-left: 20px; color: blue; border-radius: 20px;}
+@media screen and (min-width: 1150px) {
+    .col form table input{
+        width: 100%;
+    }
+    .col form table textarea{
+        width: 100%;
+    }
+}
+@keyframes opacty{
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+}
