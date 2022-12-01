@@ -9,7 +9,7 @@
             {
                 $row = mysqli_fetch_assoc($select);
                 $_SESSION ['UserId'] = $row['id'];
-                header("location: index.php?=  ['UserId']");
+                header("location: User panel.php?=  ['UserId']");
             }
             else
             {
